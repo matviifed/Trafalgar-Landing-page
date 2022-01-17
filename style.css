@@ -16,6 +16,7 @@ a {
 .column {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .row {
@@ -802,6 +803,11 @@ li {
     .healthcare__text h4 {
         max-width: 1000px;
     }
+    .healthcare__img {
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .healthcare__title::after {
         display: none;
     }
@@ -836,6 +842,9 @@ li {
     .articles__wrap {
         flex-direction: row;
         align-items: center;
+        max-width: 850px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .articles__item {
         max-width: 250px;
@@ -867,7 +876,10 @@ li {
     .header__container {
         padding-top: 20px;
         padding-bottom: 20px;
+<<<<<<< HEAD
         max-width: 900px;
+=======
+>>>>>>> d6b6e9cfc19fbef0e4d45380a7834bf31d0cc310
     }
     .header__logo {
         display: none;
@@ -877,7 +889,11 @@ li {
         cursor: pointer;
         max-width: 35px;
         margin-left: auto;
+<<<<<<< HEAD
         margin-right: 100px;
+=======
+        margin-right: 45px;
+>>>>>>> d6b6e9cfc19fbef0e4d45380a7834bf31d0cc310
     }
     .active {
         display: block;
