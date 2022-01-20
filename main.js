@@ -1,8 +1,9 @@
-let btn = document.getElementById('button')
-let nav = document.getElementById('nav')
-let header = document.getElementById('header')
-btn.onclick = function() {
-    btn.classList.toggle('change')
+let burger = document.getElementById('burger')
+let nav = document.getElementById('header-navigation')
+let header = document.getElementById('header-container')
+
+burger.onclick = function() {
+    burger.classList.toggle('active')
     nav.classList.toggle('active')
-    header.classList.toggle('clicked')
+    header.classList.toggle('active')
 }

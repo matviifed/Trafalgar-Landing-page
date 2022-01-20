@@ -15,21 +15,19 @@
 
         <!----HEADER----->
         <header class="header">
-            <div class="header__container" id="header">
+            <div class="header__container" id="header-container">
                 <div class="header__logo">
                     <a href="#" class="header__logo-link"> <img src="./img/logo.svg" alt="Trafalgar"></a>
                 </div>
-                <nav class="header__nav" id="nav">
-                    <a class="header__nav-item" href="#Hero">Home</a>
+                <nav class="header__nav" id="header-navigation">
+                    <a class="header__nav-item" href="#hero">Home</a>
                     <a class="header__nav-item" href="#slider">Find a doctor</a>
                     <a class="header__nav-item" href="#anchor">Apps</a>
                     <a class="header__nav-item" href="#healthcare">Testimonials</a>
                     <a class="header__nav-item" href="#services">About us</a>
                 </nav>
-                <div class="nav-menu" id="button">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
+                <div class="header__burger" id="burger">
+                    <span></span>
                 </div>
         </header>
 
@@ -42,7 +40,7 @@
 
             <!----HERO SECTION------>
             <section class="hero">
-                <div class="hero__container" id="Hero">
+                <div class="hero__container" id="hero">
                     <div class="row">
                         <div class="column">
                             <div class="hero__text">
@@ -54,7 +52,7 @@
                             </div>
                         </div>
                         <div class="column">
-                            <div class="hero-img">
+                            <div class="hero__img">
                                 <img src="./img/hero.png" alt="illustration">
                             </div>
                         </div>
@@ -124,7 +122,7 @@
                 <div class="healthcare__container" id="healthcare">
                     <div class="row">
                         <div class="column">
-                            <div class="healthcare-img">
+                            <div class="healthcare__img">
                                 <img src="./img/healthcare.png" alt="healthcare">
                             </div>
                         </div>
@@ -154,7 +152,7 @@
                             </div>
                         </div>
                         <div class="column">
-                            <div class="downloads-img">
+                            <div class="downloads__img">
                                 <img src="./img/downloads.png" alt="Download">
                             </div>
                         </div>
@@ -288,6 +286,7 @@
         <script src="./main.js"></script>
         <script src="./jquery.js"></script>
         <script src="./scroll.js"></script>
+        <script src="./burger.js"></script>
 </body>
 
 </html>
