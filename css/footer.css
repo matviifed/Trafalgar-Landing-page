@@ -1,0 +1,158 @@
+.footer {
+    background-color: #67C3F3;
+    margin-top: 150px;
+    color: #fff;
+}
+
+.footer__container {
+    width: 100%;
+    max-width: 1170px;
+    padding-top: 124px;
+    padding-bottom: 113px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__wrap {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__text {
+    width: 100%;
+    max-width: 392px;
+}
+
+.footer__text-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.footer__text-paragraph {
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 22px;
+    line-height: 28px;
+}
+
+.footer__text-copyright {
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 22px;
+    line-height: 28px;
+    margin-top: 31px;
+}
+
+.footer__company-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.footer__region {
+    margin-left: 100px;
+}
+
+.footer__help {
+    margin-left: 100px;
+}
+
+.region-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.help-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.footer__company-links {
+    padding: 0;
+    margin-top: 22px;
+}
+
+li {
+    list-style: none;
+}
+
+.company-link {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    transition: 0.3s ease;
+}
+
+.company-link:hover {
+    color: var(--color-secondary);
+}
+
+.company__link-item {
+    margin-top: 10px;
+}
+
+.company__link-item:first-child {
+    margin-top: 0;
+}
+
+.footer__region-links {
+    padding: 0;
+    margin-top: 22px;
+}
+
+.region-link {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    transition: 0.3s ease;
+}
+
+.region-link:hover {
+    color: var(--color-secondary);
+}
+
+.region__link-item {
+    margin-top: 10px;
+}
+
+.region__link-item:first-child {
+    margin-top: 0;
+}
+
+.help__links {
+    padding: 0;
+    margin-top: 22px;
+}
+
+.help-link {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    transition: 0.3s ease;
+}
+
+.help-link:hover {
+    color: var(--color-secondary);
+}
+
+.help__link-item {
+    margin-top: 10px;
+}
+
+.help__link-item:first-child {
+    margin-top: 0;
+}

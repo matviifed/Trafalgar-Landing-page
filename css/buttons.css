@@ -1,0 +1,53 @@
+.btn {
+    display: flex;
+    width: 200px;
+    height: 56px;
+    line-height: 56px;
+    justify-content: center;
+    color: var(--blue-light);
+    font-weight: 700;
+    font-size: 18px;
+    border: 1.4px solid var(--blue-light);
+    box-sizing: border-box;
+    border-radius: 55px;
+}
+
+.hero__text .btn {
+    color: #fff;
+    background-color: var(--blue-light);
+    text-align: center;
+    line-height: 60px;
+    margin: 40px auto 0px 0px;
+}
+
+.hero .btn:hover {
+    background-color: var(--color-secondary);
+    transition: 0.2s linear;
+}
+
+.services__container .btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.btn:hover {
+    background-color: var(--color-secondary);
+    color: #fff;
+    border-color: #fff;
+    transition: 0.4s ease;
+}
+
+.healthcare__text .btn {
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.downloads__text .btn {
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.articles .btn {
+    margin: 69px auto;
+}

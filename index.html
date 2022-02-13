@@ -8,27 +8,29 @@
     <title>Trafalgar</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./img/fav.ico">
+    <link rel="stylesheet" href="./null.css">
 </head>
 
 <body>
     <div class="site-wrapper">
 
         <!----HEADER----->
-        <header class="header">
+        <header class="header" id="header">
             <div class="header__container" id="header-container">
                 <div class="header__logo">
                     <a href="#" class="header__logo-link"> <img src="./img/logo.svg" alt="Trafalgar"></a>
                 </div>
                 <nav class="header__nav" id="header-navigation">
-                    <a class="header__nav-item" href="#hero">Home</a>
-                    <a class="header__nav-item" href="#slider">Find a doctor</a>
-                    <a class="header__nav-item" href="#anchor">Apps</a>
-                    <a class="header__nav-item" href="#healthcare">Testimonials</a>
-                    <a class="header__nav-item" href="#services">About us</a>
+                    <a class="header__nav-item anchor" href="#hero" id="hro1">Home</a>
+                    <a class="header__nav-item anchor" href="#slider">Find a doctor</a>
+                    <a class="header__nav-item anchor" href="#anchor">Apps</a>
+                    <a class="header__nav-item anchor" href="#healthcare">Testimonials</a>
+                    <a class="header__nav-item anchor" href="#services">About us</a>
                 </nav>
                 <div class="header__burger" id="burger">
                     <span></span>
                 </div>
+            </div>
         </header>
 
 
@@ -185,28 +187,37 @@
                     <h4 class="articles__title">Check out our latest article</h4>
                     <div class="articles__wrap">
                         <div class="articles__item">
-                            <a href="#" class="img-link"> <img src="./img/large_p19d7nh1hm1i37tnuim11ebqo5c1.jpg" alt="" class="item-img"></a>
+                            <div class="articles__item-media">
+                                <a href="#" class="img-link"> <img src="./img/large_p19d7nh1hm1i37tnuim11ebqo5c1.jpg" alt="" class="item-img"></a>
+                            </div>
                             <div class="articles__text-wrap">
                                 <h4 class="articles__item-title">Disease detection, check up in the laboratory</h4>
                                 <p class="articles__item-paragraph">In this case, the role of the health laboratory is very important to do a disease detection...</p>
+                                <a href="#" class="articles-link">Read more</a>
                             </div>
-                            <a href="#" class="articles-link">Read more</a>
+
                         </div>
                         <div class="articles__item">
-                            <a href="#" class="img-link"><img src="./img/item-2.jpg" alt="" class="item-img"></a>
+                            <div class="articles__item-media">
+                                <a href="#" class="img-link"><img src="./img/item-2.jpg" alt="" class="item-img"></a>
+                            </div>
                             <div class="articles__text-wrap">
                                 <h4 class="articles__item-title">Herbal medicines that are safe for consumption</h4>
                                 <p class="articles__item-paragraph">Herbal medicine is very widely used at this time because of its very good for your health...</p>
+                                <a href="#" class="articles-link">Read more</a>
                             </div>
-                            <a href="#" class="articles-link">Read more</a>
+
                         </div>
                         <div class="articles__item">
-                            <a href="#" class="img-link"><img src="./img/item-3.jpg" alt="" class="item-img"></a>
+                            <div class="articles__item-media">
+                                <a href="#" class="img-link"><img src="./img/item-3.jpg" alt="" class="item-img"></a>
+                            </div>
                             <div class="articles__text-wrap">
                                 <h4 class="articles__item-title">Natural care for healthy facial skin</h4>
                                 <p class="articles__item-paragraph">A healthy lifestyle should start from now and also for your skin health. There are some...</p>
+                                <a href="#" class="articles-link">Read more</a>
                             </div>
-                            <a href="#" class="articles-link">Read more</a>
+
                         </div>
                     </div>
                     <a href="#" class="btn">View all</a>
@@ -282,11 +293,10 @@
         </footer>
 
 
-        </div>
-        <script src="./main.js"></script>
-        <script src="./jquery.js"></script>
-        <script src="./scroll.js"></script>
-        <script src="./burger.js"></script>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./jquery.js"></script>
+    <script src="./scroll.js"></script>
 </body>
 
 </html>
